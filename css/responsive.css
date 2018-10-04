@@ -44,6 +44,17 @@ body {
 #navbar nav a{
   font-size:0.9em;
 }
+
+.col-1 {
+  float: none;
+  
+  width: 100%;
+}
+
+.col-2 {
+  float: left;
+  width: 100%;
+}
   .col-3 p {
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
@@ -54,6 +65,7 @@ body {
   -moz-column-count: 1;
   -webkit-column-count: 1;
   column-count: 1;
+  width:100;
 }
   
 }
