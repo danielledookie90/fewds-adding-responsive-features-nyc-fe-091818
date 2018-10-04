@@ -17,6 +17,12 @@ body {
   font-size:85%;
 }
 
-h1 {
-  
+#logo h1 {
+ width:35px;
+ height:2.2em;
 }
+
+#social {
+  top:72px;
+}
+
