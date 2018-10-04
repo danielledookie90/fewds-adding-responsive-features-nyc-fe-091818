@@ -47,15 +47,17 @@ body {
 
 .col-1 {
   float: none;
-  
+  margin-left:0;
   width: 100%;
 }
 
 .col-2 {
-  float: left;
+  float: none;
+  margin-left:0;
   width: 100%;
 }
   .col-3 p {
+    float:none;
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
@@ -66,6 +68,7 @@ body {
   -webkit-column-count: 1;
   column-count: 1;
   width:100;
+  margin-left:0;
 }
   
 }
