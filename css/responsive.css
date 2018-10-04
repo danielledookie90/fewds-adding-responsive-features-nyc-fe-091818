@@ -70,5 +70,9 @@ body {
   width:100;
   margin-left:0;
 }
+.border-right {
+  border-right: 1px dotted #ccc;
+  padding-right: 30px;
+}
   
 }
